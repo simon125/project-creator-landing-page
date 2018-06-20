@@ -23,6 +23,7 @@ body{
     
 }
 .container{
+    
     padding: 3vw 5vw;
     border: #663914 solid 3px;
     border-radius: 10px;
@@ -37,6 +38,14 @@ body{
 }
 .container h1{
     font-size: 50px;
+}
+@media all and (max-width: 480px){
+    .container p{
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 30px;
+    }
 }
 .showcase-container--button{
     margin-top: 5vh;
