@@ -5,7 +5,7 @@
 body{
     font-family: sans-serif, Arial, Helvetica;
     font-size: 17px;
-    color: #926239;
+    color: #ca6a10;
     line-height: 1.6;
 }
 
@@ -15,4 +15,36 @@ body{
     width: 100wh;
     background-size: cover;
     background-position: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    padding: 3vw 5vw;
+    border: #663914 solid 3px;
+    border-radius: 10px;
+    background-color: rgba(211, 208, 206, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container p{
+    font-size: 20px;
+}
+.showcase-container--button{
+    margin-top: 5vh;
+    text-decoration: none;
+    color: white;
+    border: 1px solid  #663914;
+    border-radius: 19px;
+    padding: 7px;
+    background-color: #663914
+}
+
+.showcase-container--button:hover{
+    background-color: white;
+    color: #663914;
 }
