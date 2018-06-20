@@ -47,7 +47,7 @@ body{
         font-size: 30px;
     }
 }
-.showcase-container--button{
+.showcase-container--button {
     margin-top: 5vh;
     text-decoration: none;
     color: white;
@@ -66,5 +66,14 @@ body{
     transform: translateY(4px);
   }
 
+  .showcase-container--button:visited{
+    margin-top: 5vh;
+    text-decoration: none;
+    color: white;
+    border-radius: 19px;
+    padding: 7px;
+    background-color: #663914;
+    box-shadow: 0 9px #999;
+  }
 
   
