@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    background-color: rgba(219, 183, 153, 0.5);
     font-family: sans-serif, Arial, Helvetica;
     font-size: 17px;
     color: #663914;
@@ -35,6 +36,7 @@ body{
 }
 .container p{
     font-size: 20px;
+    
 }
 .container h1{
     font-size: 50px;
@@ -66,7 +68,7 @@ body{
     transform: translateY(4px);
   }
 
-  .showcase-container--button:visited{
+.showcase-container--button:visited{
     margin-top: 5vh;
     text-decoration: none;
     color: white;
@@ -74,6 +76,82 @@ body{
     padding: 7px;
     background-color: #663914;
     box-shadow: 0 9px #999;
+}
+.features-container{
+    margin-top: 3vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature{
+    margin: 0 1.5vw;
+    display: flex;
+}
+
+.feature-reverse{
+    flex-direction: row-reverse;
+}
+  
+.feature-img{
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.pizzashop{
+    background-image: url('../img/pizzashop.jpg');
+}
+.cafe1{
+    background-image: url('../img/cafe.jpg');
+}
+.cafe2{
+    background-image: url('../img/cafe2.jpg');
+}
+.feature-content{
+    font-family: 'Advent Pro', sans-serif;
+    box-sizing: border-box;
+    padding:30px;
+    width: 50%;
+}
+.feature-content h2{
+    border: #663914 solid 3px;
+    background-color: rgba(255, 250, 247, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .feature-content p{
+    text-align: justify;
   }
 
-  
+@media all and (max-width: 680px){
+    .features-container{
+        
+        width: 100vw;
+     margin-left: 0;
+     margin-right: 0;
+    }
+    .feature{
+       width: 100vw;
+       flex-direction: column;
+       align-items: center;
+    }
+    .feature-img{
+        width: 100%;
+        height: 200px;
+    }
+    .feature-content{
+        box-sizing: border-box;
+        padding:10px;
+        text-align: justify;
+        width: 70%;
+      }
+}
+
+/* 
+font-family: 'Patrick Hand', cursive;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Coming Soon', cursive; */
